@@ -39,15 +39,15 @@ With QUERY 1, we retrieved all employee titles from **retirement info** and crea
 - salary
 
 Here is a visual of the first 5 rows that QUERY 1 returns:
-+--------+-----------------+-----------------+--------------------+--------------+------------+
-| emp_no |    first_name   |     last_name   |      title         | from_date    |   salary   |
-+--------+-----------------+-----------------+--------------------+--------------+------------+
-| 10001  | Georgi          | Facello         | Senior Engineer    | 1986-06-26   | 60117      |
-| 10004  | Christian       | Koblick         | Engineer           | 1986-12-01   | 40054      |
-| 10004  | Christian       | Koblick         | Senior Engineer    | 1995-12-01   | 40054      |
-| 10009  | Sumant          | Peac            | Assistant Engineer | 1985-02-18   | 60929      |
-| 10009  | Sumant          | Peac            | Engineer           | 1990-02-18   | 60929      |
-+--------+-----------------+-----------------+--------------------+--------------+------------+
+
+| emp_no |    first_name   |     last_name   |      title         | from_date    |   salary    |
+|:------:|:----------------|:----------------|:-------------------|:------------:|:-----------:|
+| 10001  | Georgi          | Facello         | Senior Engineer    | 1986-06-26   | 60117       |
+| 10004  | Christian       | Koblick         | Engineer           | 1986-12-01   | 40054       |
+| 10004  | Christian       | Koblick         | Senior Engineer    | 1995-12-01   | 40054       |
+| 10009  | Sumant          | Peac            | Assistant Engineer | 1985-02-18   | 60929       |
+| 10009  | Sumant          | Peac            | Engineer           | 1990-02-18   | 60929       |
+
 
 We exported the data into [number_of_titles_retiring.csv](https://github.com/jbtrahin/Module7-Challenge-JB-Trahin/blob/master/data/challenge_output/number_of_titles_retiring.csv).
 
@@ -58,9 +58,9 @@ With QUERY 2, we retrieved the frequency count of employee titles for retiring e
 - count of unique employees per title (using last title)
 
 Here is a visual of what QUERY 2 returns:
-+--------------------+--------+
+
 | title              | count  |
-+--------------------+--------+
+|:-------------------|:------:|
 | Assistant Engineer |     501|
 | Engineer           |    4692|
 | Manager            |       2|
@@ -68,7 +68,6 @@ Here is a visual of what QUERY 2 returns:
 | Senior Staff       |   14735|
 | Staff              |    3837|
 | Technique Leader   |    2013|
-+--------------------+--------+
 
 We exported the data into [retiring_employees_with_same_title.csv](https://github.com/jbtrahin/Module7-Challenge-JB-Trahin/blob/master/data/challenge_output/retiring_employees_with_same_title.csv)
 
@@ -84,15 +83,15 @@ With QUERY 3, we retrieved a list of current employees who are ready for mentors
 - to date (to filter for current employees)
 
 Here is a visual of the first 5 rows that QUERY 3 returns:
-+--------+-----------------+-----------------+-------------+-------------------+----------------+------------+
+
 | emp_no |    first_name   |     last_name   | birth_date  | current_title     |first_hire_date |   to_date  |
-+--------+-----------------+-----------------+-------------+-------------------+----------------+------------+
+|:------:|:----------------|:----------------|:------------|:------------------|:--------------:|:----------:|
 | 10095  | Hilari          | Morton          | 1965-01-03  |Senior Staff       | 1994-03-10     | 9999-01-01 |
 | 10122  | Ohad            | Esposito        | 1965-01-19  |Technique Leader   | 1998-08-06     | 9999-01-01 |
 | 10291  | Dipayan         | Seghrouchni     | 1965-01-23  |Senior Staff       | 1987-03-30     | 9999-01-01 |
 | 10476  | Kokou           | Iisaka          | 1965-01-01  |Senior Staff       | 1987-09-20     | 9999-01-01 |
 | 10663  | Teunis          | Noriega         | 1965-01-09  |Technique Leader   | 1993-01-23     | 9999-01-01 |
-+--------+-----------------+-----------------+-------------+-------------------+----------------+------------+
+
 
 We exported the data into [whos_ready_for_a_mentor.csv](https://github.com/jbtrahin/Module7-Challenge-JB-Trahin/blob/master/data/challenge_output/whos_ready_for_a_mentor.csv)
 
