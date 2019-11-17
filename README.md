@@ -28,7 +28,7 @@ Here is the three queries used for the challenge in [challenge.sql](https://gith
 
 During the module, we created a new table called **retirement_info** using the [following query](https://github.com/jbtrahin/Pewlett-Hackard-Analysis/blob/master/queries/queries.sql) that we exported in a [retirement_info.csv](https://github.com/jbtrahin/Module7-Challenge-JB-Trahin/blob/master/data/module/retirement_info.csv). For QUERY 1 of the challenge (as labeled in challenge.sql), we query on top of that table. 
 
-+----------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------+
 
 With QUERY 1, we retrieved all employee titles from **retirement info** and created a new table called **number_of_titles_retiring**. Table columns contain the following data:
 - employee number
