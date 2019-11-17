@@ -1,3 +1,5 @@
+-----------------------------------------------------------------
+--QUERY 1
 --create table of number of titles retiring
 select 	t.emp_no,
 		ri.first_name,
@@ -12,6 +14,7 @@ right join retirement_info as ri on ri.emp_no = t.emp_no
 left join salaries as s on s.emp_no = ri.emp_no
 
 -----------------------------------------------------------------
+--QUERY 2
 --list of retiring employees with same title
 select last_from_date.title,
 	   count(last_from_date.emp_no)
@@ -25,6 +28,7 @@ where last_from_date.row_num = 1
 group by last_from_date.title;
 
 -----------------------------------------------------------------
+--QUERY 3
 --list of employees who are ready for a mentor
 select 	e.emp_no,
 		e.first_name,
@@ -57,3 +61,5 @@ where (e.birth_date between '1965-01-01' and '1965-12-31')
 and (last_date.to_date = '9999-01-01')
 
 order by e.emp_no asc;
+
+
