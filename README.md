@@ -28,7 +28,7 @@ Here is the three queries used for the challenge in [challenge.sql](https://gith
 
 During the module, we created a new table called **retirement_info** using the [following query](https://github.com/jbtrahin/Pewlett-Hackard-Analysis/blob/master/queries/queries.sql) that we exported in a [retirement_info.csv](https://github.com/jbtrahin/Module7-Challenge-JB-Trahin/blob/master/data/module/retirement_info.csv). For QUERY 1 of the challenge (as labeled in challenge.sql), we query on top of that table. 
 
-+------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------+
 
 With QUERY 1, we retrieved all employee titles from **retirement info** and created a new table called **number_of_titles_retiring**. Table columns contain the following data:
 - employee number
@@ -51,7 +51,7 @@ Here is a visual of the first 5 rows that QUERY 1 returns:
 
 We exported the data into [number_of_titles_retiring.csv](https://github.com/jbtrahin/Module7-Challenge-JB-Trahin/blob/master/data/challenge_output/number_of_titles_retiring.csv).
 
-+------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------+
 
 With QUERY 2, we retrieved the frequency count of employee titles for retiring employees and created a new table called **retiring_employees_with_same_title**. Table columns contain the following data:
 - title
@@ -71,7 +71,7 @@ Here is a visual of what QUERY 2 returns:
 
 We exported the data into [retiring_employees_with_same_title.csv](https://github.com/jbtrahin/Module7-Challenge-JB-Trahin/blob/master/data/challenge_output/retiring_employees_with_same_title.csv)
 
-+------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------+
 
 With QUERY 3, we retrieved a list of current employees who are ready for mentorship and created a new table called **whos_ready_for_a_mentor**. The criteria to be ready for mentorship is that your birthdate is between 01/01/1965 and 12/01/1965. Table columns contain the following data:
 - employee number
